@@ -386,3 +386,13 @@ form>small{display:block;font-size:13px;font-weight:500;color:var(--muted);margi
   .detail-copy h2{font-size:28px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Удобство на телефоне */
+.portfolio-return{min-height:44px}
+.footer-bottom a{display:inline-flex;align-items:center;min-height:44px}
+@media(max-width:760px){
+  .favorite-button{width:40px;height:40px}
+  .favorite-button svg{width:18px;height:18px}
+  .dish-badge{font-size:11px}
+  .dish-price small{font-size:12px}
+}
