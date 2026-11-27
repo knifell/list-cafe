@@ -1,7 +1,7 @@
 window.CAFE = {
   name: 'Лист',
   tagline: 'Еда, ради которой хочется замедлиться.',
-  demo: true,
+  demo: false,
   phone: '', // Публичный контакт кафе не предоставлен.
   whatsapp: '', // Для реального кафе: 996XXXXXXXXX, затем demo: false.
   address: 'Бишкек, проспект Эркиндик, 35',
